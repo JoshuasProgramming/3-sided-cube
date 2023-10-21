@@ -9,7 +9,7 @@ class Navbar extends Component {
     
     render(){
         return (
-            <nav className='bg-black border-gray-200 dark:bg-grey-900'>
+            <nav className='bg-black border-gray-200 dark:bg-grey-900 flex items-center justify-between flex-row'>
                 {/* Left side navigation */}
                 <div className='flex items-center justify-start flex-row h-24'>
                     <img className='mx-10' src={Company_Logo} alt="3-sided-cube-logo"/>
@@ -17,7 +17,9 @@ class Navbar extends Component {
                 </div>
 
                 {/* Right side navigation */}
-                <div></div>
+                <div className='flex items-center justify-start flex-row text-white mx-10 underline'>
+                    <p>Your notification (3)</p>
+                </div>
             </nav>
         )
     }
