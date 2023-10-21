@@ -11,7 +11,7 @@ class Navbar extends Component {
         return (
             <nav className='bg-black border-gray-200 dark:bg-grey-900 flex items-center justify-between flex-row'>
                 {/* Left side navigation */}
-                <div className='flex items-center justify-start flex-row h-24'>
+                <div className='flex items-center justify-start flex-row h-20'>
                     <img className='mx-3' src={Company_Logo} alt="3-sided-cube-logo"/>
                     <img src={Text_Logo} alt="3-sided-cube-text-logo"/>
                 </div>
