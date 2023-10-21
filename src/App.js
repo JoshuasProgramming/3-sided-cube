@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Navbar from '../src/components/Navbar';
+
 
 function App() {
   return (
-    <div>
-      <h2 className='text-red-300'>Testing</h2>
-    </div>
+    <>
+      <Navbar/>
+    </>
   );
 }
 
